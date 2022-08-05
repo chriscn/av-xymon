@@ -1,5 +1,6 @@
 # HTML Files
-non_green*
+non_green**
+non_green**/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
