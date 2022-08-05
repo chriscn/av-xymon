@@ -7,8 +7,6 @@ NONGREEN_FILE_LOCATION = "/var/lib/xymon/www/nongreen.html"
 NONGREEN_SORTED_FILE_LOCATION = "/var/lib/xymon/www/nongreen_sorted.html"
 
 def main():
-    logging.basicConfig(level=logging.INFO)
-
     while True:
         print(f'Writing sorted file at {datetime.datetime.now()}')
 
