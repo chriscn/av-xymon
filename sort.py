@@ -15,7 +15,7 @@ def main():
 
             lines = nongreen_parsed.body.find_all('tr', attrs={'class':'line'})
 
-            lines = sorted(lines, key=lambda x: x.td.font.text)
+            lines = sorted(lines, key=lambda x: x.td.font.text.strip())
 
             table = nongreen_parsed.body.find_all('tbody')[1]
 
