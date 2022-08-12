@@ -8,9 +8,9 @@ Xymon writes a new file to disk every sixty seconds, currently the script just r
 
 These installation instructions are relatively customised for the University of York's Audio Visual setup; if you'd like some help in setting it up then please contact the author and/or raise an issue here.
 
-### Create a user
+### Permissions
 
-You'll need to create a user, then add to the group `xymon` so that it can write to the `/var/lib/xymon/www` directory. It will be assumed that the user is created, and you are logged in as them for the rest of this installation instruction.
+The script will need access to the `xymon` files, the easiest way of achieving this is to either run the script as root (slightly dangerous), run it as the xymon user, or create a user in the xymon group.
 
 ### Clone the repository
 
